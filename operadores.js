@@ -19,6 +19,7 @@ x === y // true
 let x = 10
 let y = '10'
 
+// compara solo valor
 x == y // true
 // compara tanto el valor como el tipo de dato
 x === y // false
@@ -56,6 +57,7 @@ x > 20 && x < 30 && x < 50
 // 0 * 1 * 1 * 1 = false
 // 1 * 1 * 1 * 1 = true
 
+// no se debe usar comparaciones en tipos de datos compuestos
 let numerosX = [1, 2, 3, 4, 5] //g232nc
 let numerosY = [1, 2, 3, 4, 5] //g434nc
 numerosX == numerosY // false
